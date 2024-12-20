@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg p-4 border-0 rounded">
+                <h3 class="text-center mb-4">Task Completion Confirmation</h3>
+                <form method="POST">
+                    {% csrf_token %}
+                    <p class="text-center mb-4">Are you sure you have completed the task?</p>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-success btn-lg w-50">Confirm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

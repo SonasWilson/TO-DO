@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Banner Section */
+
+.banner {
+    background-color: #007bff;
+    color: #fff;
+    padding: 60px 0;          
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    display: flex;            
+    flex-direction: column;
+    justify-content: center;  
+    min-height: 200px;        
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;     
+}
+
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+form .btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form .btn-success:hover {
+    background-color: #218838;
+}
+
+/* Cards */
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card .btn-danger:hover {
+    background-color: #c82333;
+}
+
+.card .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card .btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+
+.container {
+    margin-top: 50px;
+}
+
+h3 {
+    color: #007bff;
+    font-weight: bold;
+}
+
